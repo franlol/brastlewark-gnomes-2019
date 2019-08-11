@@ -4,12 +4,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a improvement of [brastlewark gnomes](https://github.com/franlol/brastlewark-gnomes) application with Hooks.
 
-Sharing global state with useContext.
+<br>
 
-Updating global state with useReducer.
+This is what i used:
 
-Internal component state with useState.
+- Sharing global state with **useContext**.
 
-Lifecycle handled with useEffect.
+- Updating global state with **useReducer**.
 
-Check the deploy [here](http://franlol.github.io/brastlewark-gnomes-2019).
+- Internal component states with **useState**.
+
+- Lifecycle handled with **useEffect**.
+
+- Custom hook **useFetch** to fetch data and know the state (loaded, error...)
+
+<br/>
+
+
+Check the **deploy** [HERE](http://franlol.github.io/brastlewark-gnomes-2019).
