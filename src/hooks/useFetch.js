@@ -1,4 +1,4 @@
-// https://github.com/franlol/useFetch/blob/master/useFetch.js
+// https://github.com/franlol/useFetch/
 
 import { useState, useEffect } from 'react';
 
@@ -22,5 +22,5 @@ export default (url, options = {}) => {
         })();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    return { data, loading, error };
+    return [data, loading, error];
 }

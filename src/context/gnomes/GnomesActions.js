@@ -1,0 +1,4 @@
+export const UPLOAD_GNOMES = 'UPLOAD_GNOMES';
+export const UPLOAD_ERRORS = 'UPLOAD_ERRORS';
+export const UPLOAD_FILTER = 'UPLOAD_FILTER';
+export const UPLOAD_LOADING = 'UPLOAD_LOADING';

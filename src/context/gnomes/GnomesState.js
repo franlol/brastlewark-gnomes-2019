@@ -1,5 +1,9 @@
 export default {
     gnomes: [],
-    filtered: [],
-    isLoaded: false,
+    filter: [],
+    loading: false,
+    error: {
+        status: false,
+        message: '',
+    }
 }
